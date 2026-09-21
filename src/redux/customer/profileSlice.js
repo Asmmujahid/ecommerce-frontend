@@ -1,4 +1,4 @@
-// src/redux/customer/ProfileSlice.js
+// src/redux/customer/profileSlice.js
 
 import {
     createAsyncThunk,

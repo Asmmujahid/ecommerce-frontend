@@ -27,7 +27,7 @@ import {
     changeCustomerPassword,
     clearProfileError,
     clearProfileMessage,
-} from "../../../redux/customer/ProfileSlice";
+} from "../../../redux/customer/profileSlice";
 
 // =====================================================
 // COMPONENT
