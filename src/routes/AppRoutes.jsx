@@ -36,8 +36,8 @@ import Shop from "../pages/Shop/Shop";
 import CustomerProducts from "../pages/Customer/Products/Products";
 import CustomerProductDetails from "../pages/Customer/Products/ProductDetails";
 
-import CustomerCategories from "../pages/customer/Categories/Categories";
-import CustomerCategoryProducts from "../pages/customer/Categories/CategoryProducts";
+import CustomerCategories from "../pages/Customer/Categories/Categories";
+import CustomerCategoryProducts from "../pages/Customer/Categories/CategoryProducts";
 
 import CustomerBrands from "../pages/Customer/Brands/Brands";
 import CustomerBrandProducts from "../pages/Customer/Brands/BrandProducts";
