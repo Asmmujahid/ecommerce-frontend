@@ -247,14 +247,14 @@ const ProductDetails = () => {
                 "storage/"
             )
         ) {
-            return `http://127.0.0.1:8000/${cleanPath}`;
+            return `${STORAGE_URL.replace(/\/storage$/, "")}/${cleanPath}`;
         }
 
         // =============================================
         // LARAVEL STORAGE
         // =============================================
 
-        return `http://127.0.0.1:8000/storage/${cleanPath}`;
+        return `${STORAGE_URL}/${cleanPath}`;
     };
 
     // ========================================================

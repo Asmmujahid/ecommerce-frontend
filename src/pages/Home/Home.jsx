@@ -109,8 +109,7 @@ import EmptyState from "../../components/Common/EmptyState/EmptyState";
 // CONSTANTS
 // =====================================================
 
-const STORAGE_URL =
-    "http://127.0.0.1:8000/storage";
+import { STORAGE_URL } from "../../utils/storage";
 
 // =====================================================
 // COMPONENT
@@ -304,7 +303,10 @@ const Home = () => {
                 "storage/"
             )
         ) {
-            return `http://127.0.0.1:8000/${cleanPath}`;
+            return  `${STORAGE_URL.replace(
+        /\/storage$/,
+        ""
+    )}/${cleanPath}`;
         }
 
         // ---------------------------------------------

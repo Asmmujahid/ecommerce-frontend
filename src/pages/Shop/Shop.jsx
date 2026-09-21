@@ -95,8 +95,8 @@ import EmptyState from "../../components/Common/EmptyState/EmptyState";
 // CONSTANTS
 // =====================================================
 
-const STORAGE_URL =
-    "http://127.0.0.1:8000/storage";
+import { STORAGE_URL } from "../../utils/storage";
+
 
 const PRODUCTS_PER_PAGE = 12;
 
@@ -924,7 +924,10 @@ const Shop = () => {
                 "storage/"
             )
         ) {
-            return `http://127.0.0.1:8000/${cleanPath}`;
+            return `${STORAGE_URL.replace(
+        /\/storage$/,
+        ""
+    )}/${cleanPath}`;
         }
 
         // ---------------------------------------------

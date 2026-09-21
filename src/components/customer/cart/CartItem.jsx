@@ -100,7 +100,7 @@ const CartItem = ({ item }) => {
                     return imagePath;
                 }
 
-                return `http://127.0.0.1:8000/storage/${imagePath}`;
+                return `${STORAGE_URL}/${imagePath}`;
             }
         }
 
@@ -116,7 +116,7 @@ const CartItem = ({ item }) => {
                 return product.thumbnail;
             }
 
-            return `http://127.0.0.1:8000/storage/${product.thumbnail}`;
+            return `${STORAGE_URL}/${product.thumbnail}`;
         }
 
         // ---------------------------------------------

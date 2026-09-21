@@ -61,8 +61,7 @@ import EmptyState from "../../../components/Common/EmptyState/EmptyState";
 // STORAGE URL
 // =====================================================
 
-const STORAGE_URL =
-    "http://127.0.0.1:8000/storage";
+import { STORAGE_URL } from "../../../utils/storage";
 
 // =====================================================
 // COMPONENT
@@ -160,7 +159,10 @@ const BrandProducts = () => {
                         "storage/"
                     )
                 ) {
-                    return `http://127.0.0.1:8000/${cleanPath}`;
+                    return `${STORAGE_URL.replace(
+        /\/storage$/,
+        ""
+    )}/${cleanPath}`;
                 }
 
                 return `${STORAGE_URL}/${cleanPath}`;
@@ -193,7 +195,10 @@ const BrandProducts = () => {
                     "storage/"
                 )
             ) {
-                return `http://127.0.0.1:8000/${thumbnail}`;
+                return `${STORAGE_URL.replace(
+        /\/storage$/,
+        ""
+    )}/${thumbnail}`;
             }
 
             return `${STORAGE_URL}/${thumbnail}`;
@@ -225,7 +230,10 @@ const BrandProducts = () => {
                     "storage/"
                 )
             ) {
-                return `http://127.0.0.1:8000/${image}`;
+                return `${STORAGE_URL.replace(
+        /\/storage$/,
+        ""
+    )}/${image}`;
             }
 
             return `${STORAGE_URL}/${image}`;

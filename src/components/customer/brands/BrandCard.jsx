@@ -16,8 +16,7 @@ import {
 // Storage URL
 // =====================================================
 
-const STORAGE_URL =
-    "http://127.0.0.1:8000/storage";
+import { STORAGE_URL } from "../../../utils/storage";
 
 // =====================================================
 // Brand Logo Helper
@@ -43,7 +42,7 @@ const getBrandLogo = (brand) => {
 
     // Already contains storage/
     if (cleanLogo.startsWith("storage/")) {
-        return `http://127.0.0.1:8000/${cleanLogo}`;
+        return `${STORAGE_URL.replace(/\/storage$/, "")}/${cleanLogo}`;
     }
 
     return `${STORAGE_URL}/${cleanLogo}`;

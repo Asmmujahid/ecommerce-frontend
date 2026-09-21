@@ -422,10 +422,13 @@ const Navbar = () => {
                 "storage/"
             )
         ) {
-            return `http://127.0.0.1:8000/${cleanPath}`;
+            return `${STORAGE_URL.replace(
+        /\/storage$/,
+        ""
+    )}/${cleanPath}`;
         }
 
-        return `http://127.0.0.1:8000/storage/${cleanPath}`;
+        return `${STORAGE_URL}/${cleanPath}`;
     };
 
     // =================================================
@@ -435,7 +438,7 @@ const Navbar = () => {
      * Backend returns:
      *
      * avatar:
-     * http://127.0.0.1:8000/storage/avatars/xxx.jpg
+     * `${STORAGE_URL}/avatars/xxx.jpg
      *
      * Therefore we use the URL directly.
      */
@@ -478,10 +481,13 @@ const Navbar = () => {
                 "storage/"
             )
         ) {
-            return `http://127.0.0.1:8000/${cleanPath}`;
+            return `${STORAGE_URL.replace(
+        /\/storage$/,
+        ""
+    )}/${cleanPath}`;
         }
 
-        return `http://127.0.0.1:8000/storage/${cleanPath}`;
+        return `${STORAGE_URL}/${cleanPath}`;
     };
 
     const userAvatar =

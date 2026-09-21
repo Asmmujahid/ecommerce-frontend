@@ -330,7 +330,7 @@ const BrandProducts = () => {
                                                   "http"
                                               )
                                                 ? brand.logo
-                                                : `http://127.0.0.1:8000/storage/${String(
+                                                : `${STORAGE_URL}/${String(
                                                       brand.logo
                                                   ).replace(
                                                       /^\/+/,

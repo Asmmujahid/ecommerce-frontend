@@ -61,7 +61,7 @@ export const getCustomerProfile =
                  *         id: 1,
                  *         name: "...",
                  *         email: "...",
-                 *         avatar: "http://127.0.0.1:8000/storage/avatars/..."
+                 *         avatar: "`${STORAGE_URL}/avatars/..."
                  *     }
                  * }
                  */

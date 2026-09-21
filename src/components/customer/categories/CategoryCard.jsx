@@ -15,9 +15,7 @@ import {
 // STORAGE URL
 // =====================================================
 
-const STORAGE_URL =
-    "http://127.0.0.1:8000/storage";
-
+import { STORAGE_URL } from "../../../utils/storage";
 // =====================================================
 // IMAGE
 // =====================================================
@@ -52,7 +50,10 @@ const getCategoryImage = (
             "storage/"
         )
     ) {
-        return `http://127.0.0.1:8000/${imagePath}`;
+        return `${STORAGE_URL.replace(
+        /\/storage$/,
+        ""
+    )}/${imagePath}`;
     }
 
     return `${STORAGE_URL}/${imagePath.replace(
