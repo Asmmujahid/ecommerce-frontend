@@ -23,7 +23,7 @@ import {
     deleteCustomerAccount,
     clearProfileError,
     clearProfileMessage,
-} from "../../../redux/customer/ProfileSlice";
+} from "../../../redux/customer/profileSlice";
 
 import { updateUser } from "../../../redux/authSlice";
 
