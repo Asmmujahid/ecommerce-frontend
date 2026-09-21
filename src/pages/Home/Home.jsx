@@ -79,7 +79,7 @@ import {
 
 import BannerList from "../../components/customer/banners/BannerList";
 
-import CategoryCard from "../../components/customer/Categories/CategoryCard";
+import CategoryCard from "../../components/customer/categories/CategoryCard";
 
 import BrandCard from "../../components/customer/brands/BrandCard";
 

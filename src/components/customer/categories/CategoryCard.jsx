@@ -1,5 +1,5 @@
 
-// src/components/customer/Categories/CategoryCard.jsx
+// src/components/customer/categories/CategoryCard.jsx
 
 import { Link } from "react-router-dom";
 
