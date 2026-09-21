@@ -87,9 +87,9 @@ import ProductCard from "../../components/customer/products/ProductCard";
 
 import ProductSkeleton from "../../components/ui/Skeleton/ProductSkeleton/ProductSkeleton";
 
-import ErrorState from "../../components/common/ErrorState/ErrorState";
+import ErrorState from "../../components/Common/ErrorState/ErrorState";
 
-import EmptyState from "../../components/common/EmptyState/EmptyState";
+import EmptyState from "../../components/Common/EmptyState/EmptyState";
 
 // =====================================================
 // CONSTANTS

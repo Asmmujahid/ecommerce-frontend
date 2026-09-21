@@ -101,9 +101,9 @@ import ProductSkeleton from "../../components/ui/Skeleton/ProductSkeleton/Produc
 // COMMON COMPONENTS
 // =====================================================
 
-import ErrorState from "../../components/common/ErrorState/ErrorState";
+import ErrorState from "../../components/Common/ErrorState/ErrorState";
 
-import EmptyState from "../../components/common/EmptyState/EmptyState";
+import EmptyState from "../../components/Common/EmptyState/EmptyState";
 
 // =====================================================
 // CONSTANTS
