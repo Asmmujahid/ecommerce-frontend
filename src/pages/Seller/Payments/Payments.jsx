@@ -15,8 +15,8 @@ import {
     selectSellerPaymentPagination,
 } from "../../../redux/seller/sellerPaymentSlice";
 
-import EarningsCard from "../../../components/Seller/Payments/EarningsCard";
-import PaymentTable from "../../../components/Seller/Payments/PaymentTable";
+import EarningsCard from "../../../components/seller/Payments/EarningsCard";
+import PaymentTable from "../../../components/seller/Payments/PaymentTable";
 
 const Payments = () => {
     const dispatch = useDispatch();

@@ -1,4 +1,4 @@
-// src/components/Seller/Payments/EarningsCard.jsx
+// src/components/seller/Payments/EarningsCard.jsx
 
 const EarningsCard = ({ earnings }) => {
     // ---------------------------------------------------------

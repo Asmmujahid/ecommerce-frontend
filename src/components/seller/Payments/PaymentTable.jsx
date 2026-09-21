@@ -1,4 +1,4 @@
-// src/components/Seller/Payments/PaymentTable.jsx
+// src/components/seller/Payments/PaymentTable.jsx
 
 import { Link } from "react-router-dom";
 
