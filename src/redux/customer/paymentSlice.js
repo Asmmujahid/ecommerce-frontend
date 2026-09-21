@@ -5,7 +5,7 @@ import {
     createSlice,
 } from "@reduxjs/toolkit";
 
-import paymentService from "../../services/customer/paymentService";
+import paymentService from "../../Services/customer/paymentService";
 
 // =====================================================
 // STABLE EMPTY ARRAY

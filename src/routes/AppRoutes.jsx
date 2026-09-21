@@ -161,9 +161,9 @@ import AdminViewOrder from "../pages/Admin/Orders/ViewOrder";
 import AdminEditOrder from "../pages/Admin/Orders/EditOrder";
 
 // Inventory
-import InventoryList from "../pages/admin/Inventory/InventoryList";
-import AddInventory from "../pages/admin/Inventory/AddInventory";
-import AdminEditInventory from "../pages/admin/Inventory/EditInventory";
+import InventoryList from "../pages/Admin/Inventory/InventoryList";
+import AddInventory from "../pages/Admin/Inventory/AddInventory";
+import AdminEditInventory from "../pages/Admin/Inventory/EditInventory";
 
 // Coupons
 import AdminCoupons from "../pages/Admin/Coupons/Coupons";

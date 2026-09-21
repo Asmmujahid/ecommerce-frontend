@@ -3,7 +3,7 @@ import {
     createSlice,
 } from "@reduxjs/toolkit";
 
-import sellerReturnService from "../../services/seller/sellerReturnService";
+import sellerReturnService from "../../Services/seller/sellerReturnService";
 
 /*
 |--------------------------------------------------------------------------

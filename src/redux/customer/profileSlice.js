@@ -5,7 +5,7 @@ import {
     createSlice,
 } from "@reduxjs/toolkit";
 
-import ProfileService from "../../services/customer/ProfileService";
+import ProfileService from "../../Services/customer/ProfileService";
 
 import { updateUser } from "../authSlice";
 
