@@ -27,6 +27,8 @@ import {
     selectRemoveCartLoading,
 } from "../../../redux/customer/cartSlice";
 
+import { STORAGE_URL } from "../../../utils/storage";
+
 // =====================================================
 // Component
 // =====================================================

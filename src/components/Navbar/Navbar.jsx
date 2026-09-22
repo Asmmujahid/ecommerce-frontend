@@ -70,6 +70,8 @@ import {
     selectIsAuthenticated,
 } from "../../redux/authSlice";
 
+import { STORAGE_URL } from "../../utils/storage";
+
 // =====================================================
 // COMPONENT
 // =====================================================

@@ -67,6 +67,7 @@ import {
     selectRemoveWishlistLoading,
 } from "../../../redux/customer/wishlistSlice";
 
+import { STORAGE_URL } from "../../../utils/storage";
 // ============================================================
 // COMPONENT
 // ============================================================

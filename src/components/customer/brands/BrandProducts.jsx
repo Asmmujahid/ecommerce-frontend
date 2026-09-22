@@ -55,6 +55,8 @@ import {
 
 import ProductCard from "../products/ProductCard";
 
+import { STORAGE_URL } from "../../../utils/storage";
+
 // =====================================================
 // Component
 // =====================================================
