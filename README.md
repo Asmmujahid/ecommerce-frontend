@@ -36,6 +36,54 @@ Each role has its own dashboard and features based on authentication and permiss
 
 ---
 
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+Main e-commerce storefront with navigation, product sections, categories, and shopping features.
+
+![Home Page](screenshots/home-page.png)
+
+### 🛍️ Shop Page
+
+Product listing page with product browsing, search, filtering, sorting, and pagination.
+
+![Shop Page](screenshots/shop-page.png)
+
+### 📦 Place Order
+
+Customer checkout and order placement interface.
+
+![Place Order](screenshots/orders-page.png)
+
+### 👨‍💼 Admin Dashboard
+
+Admin interface for managing users, sellers, products, orders, inventory, payments, and other platform functionality.
+
+![Admin Dashboard](screenshots/Admin-Dashboard.png)
+
+### 💳 Admin Payment
+
+Admin payment management interface.
+
+![Admin Payment](screenshots/Admin-payment.png)
+
+### 🏪 Seller Dashboard
+
+Seller interface for managing products, orders, inventory, and seller operations.
+
+![Seller Dashboard](screenshots/Seller-Dashboard.png)
+
+### 💳 Seller Payment
+
+Seller payment management interface.
+
+![Seller Payment](screenshots/Seller-payment.png)
+
+---
+
 ## ✨ Key Features
 
 ### 🔐 Authentication
