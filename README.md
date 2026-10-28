@@ -568,10 +568,6 @@ REST APIs
 
 ## ⭐ Portfolio Project
 
-**Live Application:**
-
-https://ecommerce-frontend-nine-blue.vercel.app/
-
 **Frontend Repository:**
 
 https://github.com/Asmmujahid/ecommerce-frontend
