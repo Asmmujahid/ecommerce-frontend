@@ -6,18 +6,6 @@ The application provides separate interfaces for **Admin, Seller, and Customer**
 
 ---
 
-## 🌐 Live Application
-
-**Production Frontend:**
-
-https://ecommerce-frontend-nine-blue.vercel.app/
-
-**Production Backend API:**
-
-https://ecommerce-backend-production-2736.up.railway.app/
-
----
-
 ## 📌 Project Overview
 
 This React application is the frontend of a full-stack multi-role e-commerce platform.
@@ -33,9 +21,6 @@ The frontend communicates with a separate **Laravel 12 REST API backend** using 
 * **Customer**
 
 Each role has its own dashboard and features based on authentication and permissions.
-
----
-
 ---
 
 ## 📸 Screenshots
@@ -311,7 +296,6 @@ The interface is designed to work across desktop and mobile screen sizes.
 
 ## 🏗️ Frontend Architecture
 
-```text
 ┌─────────────────────────────────────┐
 │          React + Vite App           │
 │                                     │
@@ -353,7 +337,6 @@ The interface is designed to work across desktop and mobile screen sizes.
 
 ## 🗂️ Frontend Project Structure
 
-```text
 ecommerce-frontend/
 │
 ├── public/
@@ -393,7 +376,6 @@ ecommerce-frontend/
 ├── package-lock.json
 ├── vite.config.js
 └── README.md
-```
 
 ---
 
@@ -419,9 +401,7 @@ Axios is used for:
 
 Create a `.env` file:
 
-```env
 VITE_API_URL=http://127.0.0.1:8000/api
-```
 
 For production, the API URL points to the deployed Laravel backend.
 
@@ -473,55 +453,41 @@ Material UI and Tailwind CSS are used together to create reusable and responsive
 
 ### 1. Clone the repository
 
-```bash
 git clone https://github.com/Asmmujahid/ecommerce-frontend.git
-```
 
 Navigate into the project:
 
-```bash
 cd ecommerce-frontend
-```
 
 ### 2. Install dependencies
 
-```bash
 npm install
-```
 
 ### 3. Configure environment variables
 
 Create a `.env` file:
 
-```env
 VITE_API_URL=http://127.0.0.1:8000/api
-```
+
 
 Use the correct URL of your local Laravel backend.
 
 ### 4. Start the development server
 
-```bash
 npm run dev
-```
+
 
 Vite will normally provide a local URL such as:
 
-```text
 http://localhost:5173
-```
 
 ### 5. Build for production
 
-```bash
 npm run build
-```
 
 ### 6. Preview the production build
 
-```bash
 npm run preview
-```
 
 ---
 
@@ -533,29 +499,11 @@ The `.env` file should remain local and should be included in `.gitignore`.
 
 Example:
 
-```text
 .env
 node_modules/
 dist/
-```
 
 Never store passwords, API keys, database credentials, or other secrets directly in source code.
-
----
-
-## 🚀 Deployment
-
-The frontend is deployed using **Vercel**.
-
-### Production Frontend
-
-https://ecommerce-frontend-nine-blue.vercel.app/
-
-### Backend API
-
-https://ecommerce-backend-production-2736.up.railway.app/
-
-The deployed React application communicates with the production Laravel API.
 
 ---
 
@@ -594,12 +542,10 @@ This project demonstrates practical experience with:
 
 **Technologies:**
 
-```text
 React • JavaScript • Laravel • PHP • MySQL
 Redux Toolkit • REST APIs
 Material UI • Tailwind CSS
 Git • GitHub
-```
 
 This project was developed as a portfolio application to demonstrate modern frontend development, API integration, state management, authentication, role-based interfaces, responsive UI development, and production deployment.
 
@@ -611,18 +557,12 @@ This project was developed as a portfolio application to demonstrate modern fron
 
 Built separately with:
 
-```text
 Laravel 12
 PHP
 MySQL
 Laravel Sanctum
 Spatie Permission
 REST APIs
-```
-
-**Production API:**
-
-https://ecommerce-backend-production-2736.up.railway.app/
 
 ---
 
